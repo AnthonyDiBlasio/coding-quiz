@@ -1,10 +1,54 @@
-var startButton = document.querySelector(".start-button");
-var timerEl = document.querySelector("");
-var choiceEl = document.querySelector("");
-var answerEl = document.querySelector("");
-var solutionEl = document.querySelector("");
-var choice = ["hello", "goodbye","sdsds","sddadad"]
+var startButton = document.querySelector("#start-button");
+var questions = [
+    {
+        question: "what is my mood?",
+        answers: {
+            a: 'sad',
+            b:'happy',
+            c:'angry',
+            d:'tired'
+        },
+        correctAnswer: "b"
+    },
+    {
+        question: "what is my mood?",
+        answers: {
+            a: 'sad',
+            b:'happy',
+            c:'angry',
+            d:'tired'
+        },
+        correctAnswer: "c"
+    },
+    {
+        question: "what is my mood?",
+        answers: {
+            a: 'sad',
+            b:'happy',
+            c:'angry',
+            d:'tired'
+        },
+        correctAnswer: "d"
+    },
+    {
+        question: "what is my mood?",
+        answers: {
+            a: 'sad',
+            b:'happy',
+            c:'angry',
+            d:'tired'
+        },
+        correctAnswer: "a"
+    },
+    {
+        question: "what is my mood?",
+        answers: {
+            a: 'sad',
+            b:'happy',
+            c:'angry',
+            d:'tired'
+        },
+        correctAnswer: "d"
+    },
 
-function startQuiz(){
-
-}
+];
