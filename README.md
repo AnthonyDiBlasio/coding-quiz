@@ -18,7 +18,8 @@ WHEN the game is over
 THEN I can save my initials and my score
 ```
 ["The deployed link to the site"](https://anthonydiblasio.github.io/coding-quiz/index.html)
-![site img]()
+https://anthonydiblasio.github.io/coding-quiz/index.html
+![site img](https://raw.githubusercontent.com/AnthonyDiBlasio/coding-quiz/main/assets/Screenshot%202022-04-02%20181039.jpg)
 ![img1](https://raw.githubusercontent.com/AnthonyDiBlasio/coding-quiz/main/assets/Screenshot%202022-04-02%20175604.jpg)
 ![img2](https://raw.githubusercontent.com/AnthonyDiBlasio/coding-quiz/main/assets/Screenshot%202022-04-02%20175642.jpg)
 ![img3](https://raw.githubusercontent.com/AnthonyDiBlasio/coding-quiz/main/assets/Screenshot%202022-04-02%20175712.jpg)
