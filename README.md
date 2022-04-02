@@ -17,7 +17,7 @@ THEN the game is over
 WHEN the game is over
 THEN I can save my initials and my score
 ```
-!["The deployed link to the site"](https://anthonydiblasio.github.io/coding-quiz/index.html)
+["The deployed link to the site"](https://anthonydiblasio.github.io/coding-quiz/index.html)
 ![img1]()
 ![img2]()
 ![img3]()
