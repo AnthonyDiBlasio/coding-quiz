@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/main.css" />
-    <title>coding quiz</title>
+    <title> Coding Quiz</title>
+    <link rel="stylesheet" href="./assets/main.css">
 </head>
 <body>
-    <header>
-    <div id="game-header">Coding Quiz Game</div>
-    <p>The user will have an absolute meltdown if they dont complete this task </p>
-    <button class id= "start-button">Start the quiz</button> 
+    <!-- Info Bar has a link to the high scores page and the timer. -->
+    <header class="Quiz-info">
+        <div class="high-scores"><a href="scoresheet.html">View High Scores</a></div>
+        <div class="timer">Time: <span id="time">90</span></div>
     </header>
-    <br></br>
-    <div class id= "Questions"> Question 1 here?
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-       
-    </div>
-    <div class id= "Questions"> Question 2 here?
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-    </div>
-    <div class id= "Questions"> Question 3 here?
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-    </div>
-    <div class id= "Questions"> Question 4 here?
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-    </div>
-    <div class id= "Questions"> Question 5 here?
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-        <li><button>Answer</button></li>
-    </div>
-<script src="./assets/script.js"></script>    
+    <section class="quizInstructions">
+        <div class="quizInstructions-box">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Answer the following questions within 90 seconds!</p>
+            <p>User loses 7 seconds for an incorrect answer.</p>
+            <p>Users final score is calculated by time remaining</p>
+
+        </div>
+        <div class="button-start">
+            <button type="button" id="startButton">Start Quiz</button>
+        </div>
+    </section>
+<main class="main"><span class ="title">Coding Quiz Challenge</span>
+    <section class="questionSet">
+        <div class="question-block">
+            <p class="question"></p>
+        </div>
+        <div class="answerChoices">
+            <li><button class="answer-choice" id="answer1"></button></li>
+            <li><button class="answer-choice" id="answer2"></button></li>
+            <li><button class="answer-choice" id="answer3"></button></li>
+            <li><button class="answer-choice" id="answer4"></button></li>
+        </div>
+        <br>
+        <div class = "returnAnswer"></div>
+        <div class="currentScore"></div>
+</main>
+        <div class="endgame">
+            <div>
+            <p class="final-score"></p>
+            </div>
+            <div>
+            <form action="scoresheet.html" class="initial-form">
+                Enter user initials: <input type="text" name="initials" id="user_initials">
+            <br>
+            <input type="submit" class="submit" onclick="resetGame()">
+            </form>
+            </div>
+        </div>
+    <script src="./assets/script.js"></script>
 </body>
 </html>

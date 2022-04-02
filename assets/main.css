@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    color: black;
+    margin: 20px;
+    padding: 10px;
+    display: block;
+
+}
+.main{
+    display: none;
+    font-size:larger ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: fixed;
+    top: 15%;
+    right: 50% ;
+    
+   
+    
+
+}
+.timer{
+    font-size: x-large;
+    font-weight: bold;
+    float: right;
+}
+.title {
+    font-size: x-large;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border: 30px;
+    padding: 10px;
+}
+.endgame {
+    display: none;
+}
+.quizInstructions {
+    background-color: aquamarine;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+}
