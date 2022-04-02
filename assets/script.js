@@ -20,13 +20,13 @@ var submitInitials = document.querySelector(".initial-form");
 var currentTime = timer.textContent;
 var userQuestion = 0;
 
-//This will initialize the high score to 0 if there isn't one in local storage. 
-var highScore = localStorage.getItem("highscore");
+//set high score to 0 if there isn't one in local storage. 
+var highScore = localStorage.getItem(".highScore");
 if (highScore === null) {
     localStorage.setItem("highScore", 0);
     highScore = 0;
 }
-
+//questions array
 var questions = [{
         questionString: "JavaScript is an ______ language?",
         answers: ["Object-Oriented", "Object-Based", "Procedural", "None of the above"],
@@ -138,8 +138,15 @@ start_button.addEventListener("click", function () {
     main.style.display = "block";
     question.style.display = "block";
     quizQuestion(timerStart);
-})
+});
 // event listeners to all the answer choices.
 var buttons = document.querySelectorAll(".answer-choice").forEach(function (event) {
     event.addEventListener("click", checkAnswer);
 })
+
+start_button.addEventListener("click", function () {
+    quizInstructions.style.display = "none";
+    choicesGroup.style.display = "block";
+    main.style.display = "block";
+    question.style.display = "block";
+});

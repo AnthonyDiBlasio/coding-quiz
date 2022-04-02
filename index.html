@@ -10,7 +10,7 @@
 <body>
     <!-- Info Bar has a link to the high scores page and the timer. -->
     <header class="Quiz-info">
-        <div class="high-scores"><a href="scoresheet.html">View High Scores</a></div>
+        <div class="score-list"><a href="scoresheet.html">View High Scores</a></div>
         <div class="timer">Time: <span id="time">90</span></div>
     </header>
     <section class="quizInstructions">
@@ -45,8 +45,9 @@
             <p class="final-score"></p>
             </div>
             <div>
-            <form action="scoresheet.html" class="initial-form">
+            <form action="./scoresheet.html" class="initial-form">
                 Enter user initials: <input type="text" name="initials" id="user_initials">
+            <br>
             <br>
             <input type="submit" class="submit" onclick="resetGame()">
             </form>
