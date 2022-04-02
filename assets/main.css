@@ -10,33 +10,26 @@ body{
     display: none;
     font-size:larger ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position: fixed;
-    top: 15%;
-    right: 50% ;
-    
+    position: relative;
+    left: 40%;
+    float: center;
+    margin-top: 150px;
    
-    
-
 }
 .timer{
     font-size: x-large;
     font-weight: bold;
     float: right;
 }
-.title {
-    font-size: x-large;
-    font-weight: bold;
-    background-color: black;
-    color: white;
-    border: 30px;
-    padding: 10px;
-}
+
 .endgame {
     display: none;
 }
 .quizInstructions {
-    background-color: aquamarine;
     margin: 50px;
     padding: 20px;
+    border: 100px;
     text-align: center;
+   border-color: aquamarine;
+   border-style: double;
 }

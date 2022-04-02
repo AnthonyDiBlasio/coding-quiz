@@ -109,6 +109,7 @@ function endGame() {
     choicesGroup.style.display = "none";
     returnAnswer.style.display = "none";
     endOfGame.style.display = "block";
+    title.style.display = "none";
 
     // This checks to see if the user's score is the new high score.
     if (currentTime > parseInt(localStorage.getItem("highScore"))) {
